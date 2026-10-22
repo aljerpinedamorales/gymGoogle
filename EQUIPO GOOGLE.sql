@@ -7,7 +7,7 @@ CREATE TABLE genero (
 -- 2. Tabla Estado Civil
 CREATE TABLE estadocivil (
     idestadocivil SERIAL PRIMARY KEY,
-    nombre VARCHAR(50) NOT NULL
+    nombre VARCHAR(70) NOT NULL
 );
 
 -- 3. Tabla Sexo
@@ -47,5 +47,5 @@ CREATE TABLE direccion (
 CREATE TABLE correo (
     idcorreo SERIAL PRIMARY KEY,
     idpersona INT REFERENCES persona(idpersona) ON DELETE CASCADE,
-    correo VARCHAR(100) NOT NULL
+    correo VARCHAR(150) NOT NULL
 );
