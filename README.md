@@ -1,6 +1,6 @@
 CREATE TABLE genero (
     idgenero SERIAL PRIMARY KEY,
-    nombre VARCHAR(50) NOT NULL
+    nombre VARCHAR (50) NOT NULL
 );
 
 -- 2. Tabla Estado Civil
