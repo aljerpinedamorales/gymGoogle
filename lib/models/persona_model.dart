@@ -10,6 +10,7 @@ class Persona {
   final String? sexoNombre;
   final int? idcliente;
   final String nacionalidad;
+  final String? estadoCivil;
 
   Persona({
     required this.idpersona,
