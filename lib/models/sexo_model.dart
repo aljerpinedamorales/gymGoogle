@@ -1,10 +1,12 @@
 class Sexo {
   final int idsexo;
   final String nombre;
+  final String? apellidos;
 
   Sexo({
     required this.idsexo,
     required this.nombre,
+    
   });
 
   factory Sexo.fromJson(Map<String, dynamic> json) {
@@ -18,6 +20,7 @@ class Sexo {
     return {
       'idsexo': idsexo,
       'nombre': nombre,
+     
     };
   }
 }
