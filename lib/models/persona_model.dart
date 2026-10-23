@@ -78,6 +78,7 @@ class PersonaDetail {
   final List<String> direcciones;
   final List<String> estadosCiviles;
   final List<String> generos;
+  final String nacionalidad;
 
   PersonaDetail({
     required this.persona,
@@ -85,6 +86,8 @@ class PersonaDetail {
     required this.direcciones,
     required this.estadosCiviles,
     required this.generos,
+    required this.nacionalidad,
+    
   });
 
   factory PersonaDetail.fromJson(Map<String, dynamic> json) {
@@ -121,6 +124,7 @@ class PersonaDetail {
       estadosCiviles: estadosCiviles,
       generos: generos,
       nacionalidad: persona.nacionalidad
+      sexo: persona.sexoNombre,
     );
   }
 }
