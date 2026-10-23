@@ -21,6 +21,7 @@ class Sexo {
     return {
       'idsexo': idsexo,
       'nombre': nombre,
+      'apellios': apellidos,
      
     };
   }
