@@ -6,6 +6,7 @@ class Sexo {
   Sexo({
     required this.idsexo,
     required this.nombre,
+    required this.apellidos,
     
   });
 
