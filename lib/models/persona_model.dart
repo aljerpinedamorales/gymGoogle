@@ -22,6 +22,7 @@ class Persona {
     this.sexoNombre,
     this.idcliente,
     this.nacionalidad = '',
+    this.estadoCivil,
   });
 
   String get nombreCompleto => '$apellidos $nombres'.trim().isNotEmpty
