@@ -4,7 +4,7 @@ class Correo {
   final String correo;
   final String? fechaoptencion;
   final String? cedula;
-  final String? personaNombres;
+  final String? Nombres;
 
   Correo({
     required this.idcorreo,
@@ -12,7 +12,7 @@ class Correo {
     required this.correo,
     this.fechaoptencion,
     this.cedula,
-    this.personaNombres,
+    this.Nombres,
   });
 
   factory Correo.fromJson(Map<String, dynamic> json) {
@@ -22,7 +22,7 @@ class Correo {
       correo: json['correo']?.toString() ?? '',
       fechaoptencion: json['fechaoptencion']?.toString(),
       cedula: json['cedula']?.toString(),
-      personaNombres: json['persona_nombres']?.toString() ??
+      Nombres: json['Nombres']?.toString() ??
           json['persona']?['nombres']?.toString(),
     );
   }
