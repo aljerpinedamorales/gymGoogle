@@ -84,6 +84,7 @@ class PersonaDetail {
   final List<String> generos;
   final String nacionalidad;
   final String? sexo;
+  final String? estadoCivil;
 
   PersonaDetail({
     required this.persona,
