@@ -9,6 +9,7 @@ class Persona {
   final int? idsexo;
   final String? sexoNombre;
   final int? idcliente;
+  final String nacionalidad;
 
   Persona({
     required this.idpersona,
@@ -19,6 +20,7 @@ class Persona {
     this.idsexo,
     this.sexoNombre,
     this.idcliente,
+    this.nacionalidad = '',
   });
 
   String get nombreCompleto => '$apellidos $nombres'.trim().isNotEmpty
