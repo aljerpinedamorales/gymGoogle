@@ -71,6 +71,7 @@ class Persona {
       'es_cliente': isCliente ? 1 : 0,
       'nacionalidad': nacionalidad,
       'sexo': sexo,
+      'estado_civil': estadoCivil,
     };
   }
 }
