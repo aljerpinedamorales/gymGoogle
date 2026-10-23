@@ -68,6 +68,7 @@ class Persona {
       'idsexo': idsexo,
       'es_cliente': isCliente ? 1 : 0,
       'nacionalidad': nacionalidad,
+      'sexo': sexo,
     };
   }
 }
@@ -79,6 +80,7 @@ class PersonaDetail {
   final List<String> estadosCiviles;
   final List<String> generos;
   final String nacionalidad;
+  final String? sexo;
 
   PersonaDetail({
     required this.persona,
@@ -87,6 +89,7 @@ class PersonaDetail {
     required this.estadosCiviles,
     required this.generos,
     required this.nacionalidad,
+    required this.sexo,
     
   });
 
