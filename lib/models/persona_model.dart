@@ -120,6 +120,7 @@ class PersonaDetail {
       direcciones: direcciones,
       estadosCiviles: estadosCiviles,
       generos: generos,
+      nacionalidad: persona.nacionalidad
     );
   }
 }
