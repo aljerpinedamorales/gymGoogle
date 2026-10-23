@@ -67,6 +67,7 @@ class Persona {
       'fechanacimiento': fechanacimiento,
       'idsexo': idsexo,
       'es_cliente': isCliente ? 1 : 0,
+      'nacionalidad': nacionalidad,
     };
   }
 }
